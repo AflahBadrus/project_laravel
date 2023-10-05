@@ -23,7 +23,7 @@ Route::get('info', function(){
     echo 'info';
 });
 
-Route::get('/register', [RegisterController::class, 'index']);
+Route::get('register', [RegisterController::class, 'index']);
 Route::get('/news', [NewsController::class, 'show'
 ]);
 Route::get('/news/create', [NewsController::class, 'create']);
